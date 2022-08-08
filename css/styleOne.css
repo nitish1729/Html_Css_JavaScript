@@ -1,0 +1,54 @@
+body{
+    background-repeat: no-repeat; 
+	background-image: url("/assets/Image1.jpg");
+    width: 80px;
+    height: 105vh;
+    background-size: contain;
+	background-size: cover; 
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;}
+    
+    
+	*{
+	padding: 0;
+	margin: 0;
+}
+.menu1{
+	background-color:#009900;
+	text-align: center;
+}
+.menu1 ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	font-size: 80%;
+    background-color:#ff8000 ;
+}
+.menu1 ul li{
+	width: 150px;
+	margin: 10px;
+	padding: 10px;
+
+}
+.menu1 ul li a{
+	text-decoration:none;
+	color:white;
+
+}
+.active, .menu1 ul li :hover{
+	background-color: #ff4d4d;
+	border-radius: 20px;
+}
+.menu1 .fa{
+	margin-right:10px;
+}
+footer
+{
+   
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;
+        height: 100px;
+     
+}
