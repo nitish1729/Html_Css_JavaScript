@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+}
+
+.hello
+{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: pink;
+    width: auto;
+}
+ul{
+    color: blue;
+}
+footer{
+    
+    position: bottom;
+
+}
