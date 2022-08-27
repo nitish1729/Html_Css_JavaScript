@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Added External JavaScript file
+    <link rel="javascript" type="text/javascript" href="../JavaScript/Script.js">
+    <script src="../JavaScript/Script.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <p>Welcome to JavaScript</p>  
+    <script>
+      document.writeln("Alert Function ");
+         var a = 20, b= 30;
+    if(a>b)
+    {
+        alert("a is greater than b");
+    }
+   else
+{alert("b is greater than b");}
+
+// let even = 11;
+// let check = even %2 == 0 ? "even":"not even";
+// document.writeln(check);  
+
+// document.write("Confirm Function");
+// let age = confirm("are you 18+");
+// if(age)
+// {
+//     alert("You can drive");
+// }
+// else
+// {
+//     alert("You can not drive");
+// }
+// //prompt("Enter Your Name");
+// let aa = prompt("Enter your name")
+
+// alert(aa);
+
+// document.write("Welcome "+ aa);  
+// let month = prompt("Enter the month");
+// switch(true)
+// {
+//     case (month ==1) :
+//     document.writeln("February");
+//     break;
+//     case (month ==2) :
+//     document.writeln("March");
+//     break;
+//     case (month ==3) :
+//     document.writeln("April");
+//     break;
+//     case (month ==4) :
+//     document.writeln("May");
+//     break;
+//     case (month ==5) :
+//     document.writeln("June");
+//     break;
+//     default:
+//     document.writeln("Enter valid number");
+//    break;
+//    }
+function infro()
+{
+    document.write("Hi, I am Nitish Mehta");
+
+    document.write("JavaScript Functions");
+    document.write('<br>');
+    document.write("JavaScript functions are used to perform operations");
+    document.write('<br>');
+    document.write("Code reusability: ");
+    document.write('<br>');
+    document.write("JavaScript Function Syntax");
+    document.write('<br>');
+    document.write("Less coding: ");
+    document.write('<br>');
+    document.write('<br>');
+};
+infro();
+function FullName(fname="Hanuman",lname="Angani")
+{
+    document.write("Hello " + fname +" "+ lname+'<br>');
+}
+FullName("Nitish", "Mehta");
+FullName("Joel", "Singh");
+FullName("Lohit", "Lohit");
+document.write("Hello "+".......function........." +'<br>');
+function sum(a,b)
+{
+    document.write(a+b + ""+'<br>');
+}
+sum(20,50);
+sum(10,60);
+sum(50,90);
+
+function getInfo(){  
+return "hello javaScript! How r u?";  
+};
+let hg = getInfo();
+document.write(hg+'<br>');
+function resume(name,number,email)
+{
+    document.write(name+" "+'<br>'+number+" "+'<br>'+email+" "+'<br>')
+}
+let res = resume("nitish",9852267614,"mehta092@gmail.com");
+document.write(res+'<br>');
+
+    </script>
+<form>  
+ 
+
+</form>  
+</body>
+</html>

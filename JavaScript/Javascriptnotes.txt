@@ -1,0 +1,74 @@
+What is JavaScript
+JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages.
+....................................
+   3 Places to put JavaScript code
+   ................................
+1.Between the body tag of html
+2.Between the head tag of html
+3.In .js file (external javaScript)
+
+JavaScript Comment
+There are two types of comments in JavaScript.
+Single-line Comment ----// It is single line comment  
+Multi-line Comment-------/* your code here  */
+
+"""""JavaScript Variable"""
+var:-  If we declare a Variable from var, then we can also declare it again with the same name, and if we want to re-again its value then we can do that too;
+
+let :-If we declare a Variable from let, then we can not declare it again with the same name, but we can re-again its value;
+
+const:- And if we declare Variable with const, we can neither declare it again nor can re-again its value;
+
+
+/// Javascript Data Types
+      /*
+       JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+       Primitive data type
+       Non-primitive (reference) data type
+
+       JavaScript primitive data types
+       Data Type
+       String:- represents sequence of characters e.g. "hello"
+       Number:- represents numeric values e.g. 100
+       Boolean:-	represents boolean value either false or true
+       Undefined:-	represents undefined value
+       Null:=	represents null i.e. no value at all
+
+
+       JavaScript non-primitive data types
+       Object:- represents instance through which we can access members
+       Array:-	represents group of similar values
+       RegExp:-	represents regular expression
+       */
+                  Operators
+             JavaScript Operators
+There are following types of operators in JavaScript.
+Arithmetic Operators
+Comparison (Relational) Operators
+Bitwise Operators
+Logical Operators
+Assignment Operators(Compound operators)
+        
+
+JavaScript Functions
+JavaScript functions are used to perform operations. We can call JavaScript function many times to reuse the code.
+Advantage of JavaScript function
+""""""""""""""""""""""""""""""
+There are mainly two advantages of JavaScript functions.
+
+Code reusability: We can call a function several times so it save coding.
+Less coding: It makes our program compact. We don’t need to write many lines of code each time to perform a common task.
+
+JavaScript Function Syntax
+The syntax of declaring function is given below.
+function functionName([arg1, arg2, ...argN]){  
+ //code to be executed  
+}  
+
+
+Function with Return Value
+
+// JavaScript Events
+The change in the state of an object is known as an Event. 
+ there are various events which represents that some activity is performed by the user or by the browser
+ When javascript code is included in HTML, js react over these events and allow the execution. This process of reacting over the events is called Event Handling. Thus, js handles the HTML events via Event Handlers.

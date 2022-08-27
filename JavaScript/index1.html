@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Function Return value</h1>
+    <script>
+        function Totalmarks(Eng, Phys, Match, CS, Chem)
+        {
+           let add = Eng+Phys+Match+CS+Chem;
+           return add;
+        };
+        let add1= Totalmarks(100,100,100,100,100);
+        document.write("Marks Obtain - " +add1+"<br>");
+        function percentage(tm)
+        {
+             var per = tm/500*100;
+             return per;
+        };
+        let add2 = percentage(add1);
+        document.write("Percentage Obtain - " +add2+"%"+"<br>");
+
+    </script>
+</body>
+</html>
