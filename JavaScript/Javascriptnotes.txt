@@ -72,3 +72,28 @@ Function with Return Value
 The change in the state of an object is known as an Event. 
  there are various events which represents that some activity is performed by the user or by the browser
  When javascript code is included in HTML, js react over these events and allow the execution. This process of reacting over the events is called Event Handling. Thus, js handles the HTML events via Event Handlers.
+
+ Mouse events:
+ click:-	onclick-	When mouse click on an element
+ mouseover	onmouseover	When the cursor of the mouse comes over the element
+ mouseout	onmouseout	When the cursor of the mouse leaves an element
+ mousedown	onmousedown	When the mouse button is pressed over the element
+ mouseup	onmouseup	When the mouse button is released over the element
+ mousemove	onmousemove	When the mouse movement takes place.
+
+ 1.onclick 
+ 2.oncontextmenu
+ 3.ondblclick
+ 4.onmousedown
+ 5.onmouseup
+ 6.onmouseover
+ 7.onmouseout
+ 
+
+ Keyboard events:
+Keydown & Keyup onkeydown & onkeyup	When the user press and then release the key
+1.onkeydown
+2.onkeyup
+3.onkeypress
+
+                Window/Document events
