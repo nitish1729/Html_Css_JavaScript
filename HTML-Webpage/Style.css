@@ -1,0 +1,57 @@
+*{
+    background-color: red;
+}
+body{
+    background-color: rgb(225, 251, 255);
+}
+p#demo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+div#header{
+    height: 50px;
+    background-color: red;
+    margin: 0%;
+    padding: 2px;
+}
+div#i_mark{
+    background-color: green;
+    box-sizing: inherit;
+    width: 200px;
+    height: 150px;
+    border: 5px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#Iframes{
+background-color: lightblue;
+text-align:center;
+
+height: 50px;
+border: 10px;
+border-radius: 2px;
+padding:  0px;
+}
+div#quote
+{
+    background-color: pink;
+    color: white;
+    height: 24px;
+    padding: 20px;
+    margin: auto;
+
+}
+#src{
+    color: red;
+background-color: rgb(245, 237, 220);
+}
+div#Inline,h4{
+    display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }     
+
+
+

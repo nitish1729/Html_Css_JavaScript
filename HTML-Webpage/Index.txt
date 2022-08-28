@@ -1,0 +1,196 @@
+Attribute:-An HTML attribute contains two fields: name & value.
+Syntax:- <tag name  attribute_name= " attr_value"> content </ tag name>   
+
+HTML Meta Tags
+DOCTYPE, title, link, meta and style
+
+Unclosed HTML Tags
+<br> Tag: br stands for break line, it breaks the line of the code.
+<hr> Tag: hr stands for Horizontal Rule. This tag is used to put a line across the webpage.
+
+Element:- StartTage(attribute name, attr_value) - content - endtag
+HTML Text Tags
+<p>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <strong>, <em>, <abbr>, <acronym>, <address>, <bdo>, <blockquote>, <cite>, <q>, <code>, <ins>, <del>, <dfn>, <kbd>, <pre>, <samp>, <var> and <br>
+
+HTML Link Tags
+<a> and <base>
+
+HTML Image and Object Tags
+<img>, <area>, <map>, <param> and <object>
+
+HTML List Tags
+<ul>, <ol>, <li>, <dl>, <dt> and <dd>
+
+HTML Table Tags
+table, tr, td, th, tbody, thead, tfoot, col, colgroup and caption
+
+HTML Form Tags
+form, input, textarea, select, option, optgroup, button, label, fieldset and legend
+
+HTML Scripting Tags
+script and noscript
+
+1. <!-- -->:-  This tag is used to apply comment in an HTML document.
+2. <!DOCTYPE>:-This tag is used to specify the version of HTML
+3. <a>:-       It is termed as anchor tag and it creates a hyperlink or link.
+4. <abbr>:-    It defines an abbreviation for a phrase or longer word.
+5. <address>:- It defines the author's contact information of the HTML article
+6. <area>:-	   It defines the area of an image map.
+7. <article>:- It defines the self-contained content.
+8. <aside>:-   It defines content aside from main content. Mainly represented as sidebar.
+9. <audio>:-   It is used to embed sound content in HTML document.
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+1. <b>:-	It is used to make a text bold.
+2. <base>:-	This tag defines the base URL for all relative URL within the document.
+3. <bdi>:-  This tag is used to provide isolation for that part of text which may be          formatted in different directions from its surrounding text.
+4. <bdo>:-	It is used to override the current text direction.
+5. <blockquote>:-	It is used to define a content which is taken from another source.
+6. <body>:-	It is used to define the body section of an HTML document.
+7. <br>:-	   It is used to apply single line break.
+8. <button>:-	It is used to represent a clickable button
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+1. <canvas>:-	It is used to provide a graphics space within a web document.
+2. <caption>:-	It is used to define a caption for a table.
+3. <cite>:-	    It is used to define the title of the work, book, website, etc.
+4. <code>:-	    It is used to display a part of programming code in an HTML document.
+5. <col>:-	    It defines a column within a table which represent common properties of columns         and used with the <colgroup> element.
+6. <colgroup>:-	It is used to define group of columns in a table.
+
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1. <data>:-     It is used to link the content with the machine-readable translation.
+2. <datalist>:-	It is used to provide a predefined list for input option.
+3. <dd>	:-      It is used to provide definition/description of a term in description list.
+4. <del>:-  	It defines a text which has been deleted from the document.
+5. <details>:-	It defines additional details which user can either view or hide.
+6. <dfn>:-  	It is used to indicate a term which is defined within a sentence/phrase.
+7. <dialog>:-	It defines a dialog box or other interactive components.
+8. <div>:-   	It defines a division or section within HTML document.
+9. <dl>:-    	It is sued to define a description list.
+10.<dt>:-    	It is used to define a term in description list.
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+1.<em>:- 	It is used to emphasis the content applied within this element.
+2.<embed>:-	It is used as embedded container for external file/application/media, etc.
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1. <fieldset>:-   It is used to group related elements/labels within a web form.
+2. <figcaption>:- It is used to add a caption or explanation for the <figure> element.
+3. <figure>:-     It is used to define the self-contained content, and s mostly refer as single unit.
+4. <footer>:-	 It defines the footer section of a webpage.
+5. <form>:- 	It is used to define an HTML form.
+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+1. <h1> to <h6>:- 	It defines headings for an HTML document from level 1 to level 6.
+2. <head>:-     	It defines the head section of an HTML document.
+3. <header>:-   	It defines the header of a section or webpage.
+4. <hr>:-        	It is used to apply thematic break between paragraph-level elements.
+5. <html>:-	        It represents root of an HTML document.
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+1. <i>:-	    It is used to represent a text in some different voice.
+2. <iframe>:-	It defines an inline frame which can embed other content.
+3. <img>:-   	It is used to insert an image within an HTML document.
+4. <input>:-	It defines an input field within an HTML form.
+5. <ins>:-	    It represent text that has been inserted within an HTML document.
+
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+1. <kbd>:-	It is used to define keyboard input.
+
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+1. <label>:- 	It defines a text label for the input field of form.
+2. <legend>:-	It defines a caption for content of <fieldset>
+3. <li>:- 	    It is used to represent items in list.
+4. <link>:- 	It represents a relationship between current document and an external resource.
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+1. <main>:- 	It represents the main content of an HTML document.
+2. <map>:-  	It defines an image map with active areas.
+3. <mark>:-     It represents a highlighted text.
+4. <menu>:- 	It is used for creating a menu list of commands.
+5. <meta>:-  	It defines metadata of an HTML document.
+6. <meter>:-	It defines scalar measurement with known range or fractional value.
+
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+1. <nav>:-  	It represents section of page to represent navigation links.
+2. <noscript>:-	It provides an alternative content if a script type is not supported in  browser.
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+1. <object>:-	It is used to embed an object in HTML file.
+2. <ol>:-	    It defines an ordered list of items.
+3. <optgroup>:-	It is used to group the options of a drop-down list.
+4. <option>:-	It is used to define options or items in a drop-down list.
+5. <output>:-	It is used as container element which can show result of a calculation.
+
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+1. <p>:-	    It represents a paragraph in an HTML document.
+2. <picture>:-	It defines more than one source element and one image element.
+3. <pre>:-   	It defines preformatted text in an HTML document.
+4. <progress>:- It defines the progress of a task within HTML document.
+
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+1. <q>:-	It defines short inline quotation.
+
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+1. <rp>:-	 It defines an alternative content if browser does not supports ruby annotations.
+2. <rt>:-	 It defines explanations and pronunciations in ruby annotations.
+3. <ruby>:-	 It is used to represent ruby annotations.
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+1. <s>:-	    It render text which is no longer correct or relevant.
+2. <samp>:-	    It is used to represent sample output of a computer program.
+3. <script>:-	It is used to declare the JavaScript within HTML document.
+4. <section>:-	It defines a generic section for a document.
+5. <select>:- 	It represents a control which provides a menu of options.
+6. <small>:-It is used to make text font one size smaller than document?s base font   size.
+7.<source>>:-	It defines multiple media recourses for different media element such as <picture>, <video>, and <audio> element.
+8. <span>:- 	It is used for styling and grouping inline.
+9. <strong>:-	It is used to define important text.
+10. <style>:-	It is used to contain style information for an HTML document.
+11. <sub>:-	    It defines a text which displays as a subscript text.
+12. <sup>:-	    It defines a text which represent as superscript text.
+13. <summary>:-	It defines summary which can be used with <details> tag.
+14. <svg>:- 	It is used as container of SVG (Scalable Vector Graphics).
+
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+1. <table>:-	It is used to present data in tabular form or to create a table within HTML document.
+2. <tbody>:-	It represents the body content of an HTML table and used along with <thead> and <tfoot>.
+
+3. <td>	:- It is used to define cells of an HTML table which contains table data
+4. <template>:-	It is used to contain the client side content which will not display at time of page load and may render later using JavaScript.
+
+5. <textarea>:-	It is used to define multiple line input, such as comment, feedback, and review, etc.
+6. <tfoot>:-	It defines the footer content of an HTML table.
+7. <th>:- 	It defines the head cell of an HTML table.
+8. <thead>:-	It defines the header of an HTML table. It is used along with <tbody> and <tfoot> tags.
+
+9. <time>:- 	It is used to define data/time within an HTML document.
+10. <title>:- 	It defines the title or name of an HTML document.
+11. <tr>:-   	It defines the row cells in an HTML table
+12. <track>:- 	It is used to define text tracks for <audio> and <video> elements.
+
+UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+1. <u>:- 	It is used to render enclosed text with an underline.
+2. <ul>:- 	It defines unordered list of items.
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+1. <var>:-	    It defines variable name used in mathematical or programming context.
+2. <video>:-	It is used to embed a video content with an HTML document
+
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+1. <wbr>:- 	It defines a position within text where break line is possible.
+
+                             HTML Attribute
+* HTML attributes are special words which provide additional information about the  elements or attributes are the modifier of the HTML element. 
+* Each element or tag can have attributes, which defines the behaviour of that element.
+*Attributes should always be applied with start tag.
+*The Attribute should always be applied with its name and value pair.
+*The Attributes name and values are case sensitive, and it is recommended by W3C that it should be written in Lowercase only.
+*You can add multiple attributes in one HTML element, but need to give space between two attributes.
+Syntax
+<element attribute_name="value">content</element>  
+
+The title attribute in HTML
