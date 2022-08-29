@@ -53,7 +53,7 @@
                                     -->
                                 </pre>
                                 <h4>Inline elements:</h4>
-                                <ul>Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.<br>These elements does not start with new line and take width as per requirement.<br>The Inline elements are mostly used with other elements.</ul>
+                                <ul title="circle">Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.<br>These elements does not start with new line and take width as per requirement.<br>The Inline elements are mostly used with other elements.</ul>
                                 <pre>
                                     <!--
                                     <a>, <abbr>, <acronym>, <b>, <bdo>, <big>, <br>, <button>, <cite>, <code>, <dfn>, <em>, <i>, <img>, <input>, <kbd>, <label>, <map>, <object>, <q>, <samp>, <script>, <select>, <small>, <span>, <strong>, <sub>, <sup>, <textarea>, <time>, <tt>, <var>. -->
@@ -221,12 +221,311 @@
                                 </table>   
                     </details>
                 </div>
+                <div>
+                    <details>
+                        <summary>HTML template tag</summary>
+                        <p>HTML template> tag is used to hold the client-side content that will not render at the time of page load, but it can be instantiated during runtime using JavaScript.</p>
+                        <p>The content of the template will not be displayed until it is not activated using JavaScript. The browser processes the content of thetemplate> element while loading the page to ensure that the content is valid, the contents are not rendered, however.</p>
+                        <h2>Example of template tag</h2>  
+                        <button onclick="clickMe()">Click Me</button><br>  
+                          
+                       <template id="mytemplate">  
+                         <img src="../HTML-Webpage/photo/6746701.jpg" alt="bird's image" height="100" width="100">  
+                         <script>  
+                         alert("Thank you for choosing template. Click OK for image.")  
+                         </script>  
+                        </template>  
+                        
+                      <script>  
+                         function clickMe() {  
+                          var x= document.getElementsByTagName("template")[0];  
+                          var clon = x.content.cloneNode(true);  
+                          document.body.appendChild(clon);}  
+                      </script>  
+                    </details>
+                </div>
+                <div>
+                    <h2>HTML Textarea</h2>
+                    <p>
+                        The HTML textarea> tag is used to define a multi-line text input control.
+                        <P>
+                            It can hold unlimited number of characters and the texts are displayed in a fixed-width font (usually courier).<br>
+
+                            The size of the HTML textarea is defined by cols> and rows> attribute, or it can also be defined through CSS height and width properties.
+                        </P>
+                    </p><br>
+                    <textarea rows="9" cols="70">JavaTpoint textarea tag example with rows and columns.  
+                 </textarea>  
+                   <h3>New HTML 5 Textarea Attributes</h3>
+                   <ul>
+                    <b>1. Autofocus:-</b>	It specifies that a text area should be automatically get focused when the page is loaded.<br>
+                    <b>2. Form:-</b>	It specifies one or more forms the textarea belongs to.<br>
+                   <b>3. Maxlength:-</b>	It specifies the maximum number of characters allowed in the text area.<br>
+                    <b>4.Placeholder:-</b>	It specifies a short hint that describes the expected value of a textarea.<br>
+                    <b>5. Required:-</b>	It specifies that textarea must be filled out.<br>
+                   <b>6. Wrap:-</b>	It specifies that how the texts in the textarea are wrapped at the time of the submission of the form.<br>
+                   </ul>
+                   <h2>FORM</h2>
+                   <form action="updates.jsp" id="usrform">  
+                    Name: <input type="text" name="usrname">  
+                    <input type="submit">  
+                   </form>  
+                   <br>  
+                   <textarea rows="9" cols="70" name="comment" form="usrform">  
+                   Enter text here...</textarea>  
+                   <p>The text area above is outside the form element, but should still be a part of the form.</p>  
+                   <p><b>Note:</b> The form attribute is not supported in Internet Explorer.</p>  
+                </div>
+                <div id="">
+                    <h1>Example of tfoot tag</h1>  
+  <table border="1" >  
+              <thead>  
+        <tr>  
+              <th>Items</th>  
+              <th>Quantity</th>  
+              <th>Expenditure</th>    
+        </tr>  
+    </thead>  
+      <tfoot>  
+        <tr>  
+          <th>Total</th>  
+          <th>90</th>  
+          <th>4175</th>  
+        </tr>  
+               </tfoot>  
+                  <tbody>  
+         <tr>  
+             <td>Books</td>  
+              <td>5</td>  
+               <td>1500</td>  
+         </tr>  
+          <tr>  
+                <td>Drawing-Paper</td>  
+                  <td>50</td>  
+                <td>800</td>  
+         </tr>  
+         <tr>  
+            <td>Marker</td>  
+            <td>35</td>  
+             <td>1875</td>  
+         </tr>  
+     </tbody>  
+ </table>                  
+        </div><br>
+        <div>
+            <table border="2">
+            <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+            <th>Employee ID</th>
+        </tr>
+        <tr>
+            <td>Nitish Mehta</td>
+            <td>AXA</td>
+            <td>30000</td>
+            <td>653963</td>
+        </tr>
+        </table>
+        <p>We open our shop at <time>09:00</time> am.</p>  
+<p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
+<p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p>  
+        </div>
+        <diV><ul type="square">  
+            <li>HTML</li>  
+            <li>Java</li>  
+            <li>JavaScript</li>  
+            <li>SQL</li>  
+           </ul>  
+           <ul type="none">  
+            <li>HTML</li>  
+            <li>Java</li>  
+            <li>JavaScript</li>  
+            <li>SQL</li>  
+           </ul>  
+           <ul style="list-style-type: square;">  
+            <li>HTML</li>  
+            <li>Java</li>  
+            <li>JavaScript</li>  
+            <li>SQL</li>  
+          </ul>  </diV>
+          <ol>  
+            <li>Aries</li>  
+            <li>Bingo</li>  
+            <li>Leo</li>  
+            <li>Oracle</li>  
+           </ol>  
+           <ul>  
+            <li>Aries</li>  
+            <li>Bingo</li>  
+            <li>Leo</li>  
+            <li>Oracle</li>  
+           </ul> 
+           <div>
+            <ol>  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+               </ol>  
+               <ol type="I">  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+               </ol>  
+               <ol type="i">  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+               </ol>  
+               <ol type="A">  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+               </ol>  
+               <ol type="a">  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+               </ol>  
+               <ol reversed>  
+                <li>HTML</li>  
+                <li>Java</li>  
+                <li>JavaScript</li>  
+                <li>SQL</li>  
+                 </ol>  
+           </div> 
+           <diV>
+            <h1>HTML Unordered List | HTML Bulleted List</h1>
+            <p>HTML Unordered List or Bulleted List displays elements in bulleted format . We can use unordered list where we do not need to display items in any particular order. The HTML ul tag is used for the unordered list. There can be 4 types of bulleted list:<br>
+
+                disc
+                circle
+                square
+                none
+                <br>
+                To represent different ordered lists, there are 4 types of attributes in ul> tag.</p>
+                <li>HTML</li>  
+            <li>Java</li>  
+            <li>JavaScript</li>  
+          <li>SQL</li>  
+          </ul>  
+          <ul type="none">  
+            <li>HTML</li>  
+            <li>Java</li>  
+            <li>JavaScript</li>  
+            <li>SQL</li>  
+           </ul>  
+           <h2>Example of var tag</h2>  
+<p>Following is equation for distributive law</p>  
+<p><var>a</var>(<var>b</var>+<var>c</var>)=<var>ab</var>+<var>ac</var></p>
+<p><var>a(b+c) = ab + ac</var></p>
+           </diV>
+           <div>
+            <details>
+                <summary>HTML Video Tag</summary>
+                <p>HTML 5 supports <var>video> </var>tag also. The HTML video tag is used for streaming video files such as a movie clip, song clip on the web page.</p>
+                    <p>Currently, there are three video formats supported for HTML video tag:</p>
+                    <ol>
+                        <li>mp4</li>
+                        <li>webM</li>
+                        <li>ogg</li>
+                    </ol>
+                    <video controls>  
+                        <source src="movie.mp4" type="video/mp4">  
+                        Your browser does not support the html video tag.  
+                      </video> 
+                      <h2>Let's see the example to play ogg file using HTML video tag.</h2> 
+                      <video controls>  
+                        <source src="movie.ogg" type="video/ogg">  
+                       Your browser does not support the html video tag.  
+                     </video>  
+                     <h3>Attributes of HTML Video Tag</h3>
+                     <ol>
+                        <li>controls:-It defines the video controls which is displayed with play/pause buttons.</li>
+                        <li>height:-	It is used to set the height of the video player.</li>
+                        <li>width:-	It is used to set the width of the video player.</li>
+                        <li>poster:-	It specifies the image which is displayed on the screen when the video is not played.</li>
+                        <li>autoplay:-	It specifies that the video will start playing as soon as it is ready.</li>
+                        <li>loop:-	It specifies that the video file will start over again, every time when it is completed.</li>
+                       <li>muted:-	It is used to mute the video output.</li>
+                       <li>preload:-	It specifies the author view to upload video file when the page loads.</li>
+                       <li>src:-	It specifies the source URL of the video file.</li>
+                     </ol>
+                     <video width="320" height="240" controls autoplay loop>  
+                        <source src="movie.mp4" type="video/mp4">  
+                        Your browser does not support the html video tag.  
+                      </video>  
+            </details>
+           </div>
+           <diV id="svg">
+           <detals>
+            <summary>HTML SVG</summary>
+            <h2>The HTML SVG is an acronym which stands for Scalable Vector Graphics.</h2>
+            <p>HTML SVG is a modularized language which is used to describe graphics in XML. It describe two-dimensional vector and mixed vector/raster graphics in XML. It is a W3C recommendation. SVG images and their behaviors are defined in XML text files. So as XML files, you can create and edit an SVG image with text editor, but generally drawing programs like inkspace are preferred to create it.</p><br>
+            <p>SVG is mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X,Y coordinate system etc.</p>
+            <svg width="100" height="100">  
+                <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />  
+               </svg>  
+               <hr>
+               <svg width="200" height="100">  
+                <rect width="200" height="100" stroke="yellow" stroke-width="4" fill="red" />  
+              </svg>  
+         <h3>Draw polygon by svg tag.</h3>
+         <svg height="210" width="500">  
+            <polygon points="100,10 40,198 190,78 10,78 160,198"  
+            style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />  
+          </svg>  
+           </detals>
+           </div>
+       <div>
+        <details>
+           <summary> HTML Canvas Tag</summary>
+           <canvas id="myCanvas1" width="300" height="100" style="border:2px solid;">  
+            Your browser does not support the HTML5 canvas tag.  
+            </canvas>  
+        </details>
+       </div>
+       <div>
+        <details>
+            <summary>HTML Form</summary>
+            <h2></h2>
+            <p>An HTML form is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc .</p>
+            <P>
+                An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc. .
+            </P>
+            <H1>HTML Form Tags</H1>
+            <ol>
+                <li>form:-It defines an HTML form to enter inputs by the used side.</li>
+                <li>Input:-It defines an input control.</li>
+                <li>textarea:-</li>
+            </ol>
+           
+        </details>
+       </div>
+       <div>
+       <h2>An HTML form is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc.</h2>
+    </div>
+    <p>An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc. .</p>
+    <h2>HTML Form Tags</h2>
+    <ol>
+        <li>form:-It defines an HTML form to enter inputs by the used side.</li>
+        <li>input:-It defines an input control.</li>
+        <li>textarea:-It defines a multi-line input control.</li>
+        <li>label:-It defines a label for an input element.</li>
+        <li>fieldset:-It groups the related element in a form.</li>
+        <li>legend:-It defines a caption for a fieldset> element.</li>
+        <li>select:-It defines a drop-down list.</li>
+        <li>optgroup:-It defines a group of related options in a drop-down list.</li>
+        <li>option:-It defines an option in a drop-down list.</li>
+        <li>button:-It defines a clickable button.</li>
+        <li>datalist:-It specifies a list of pre-defined options for input control.</li>
+        <li>keygen:-	It defines a key-pair generator field for forms.</li>
+        <li>output:-It defines the result of a calculation.</li>
+    </ol>
         </body>
 </html>                       
-                                          
-                            
-                           
-        
-  
-        
-    
