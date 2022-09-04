@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>JavaScript getTime()</h2>
+<p>The internal clock in JavaScript counts from midnight January 1, 1970.</p>
+<p>The getTime() function returns the number of milliseconds since then:</p>
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getTime();
+
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const d1 = new Date();
+let month = months[d1.getMonth()];
+document.getElementById("demo").innerHTML = month;
+
+var mydate = new Date();
+document.write(mydate.getDate()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getDate()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getDay()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getFullYear()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getMonth()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getDay()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getTimezoneOffset()+ "<br>");
+var mydate = new Date();
+document.write(mydate.getMilliseconds()+ "<br>");
+</script>
+</script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+                        Function
+JavaScript functions are used to perform operations. We can call JavaScript function many times to reuse the code.
+
+A JavaScript function is a block of code defined to perform a particular task.
+
+Fuctions is a independent resable block of code that perform certain operations on variable and expressions to fulfill a task.
+
+JavaScript functions is executed when "Something" invokes it(call it).
+
+Types of function in JavaScript
+
+1. User-defined functions
+2. Built-in functions  alert(),prompt() etc..
+
+# JavaScript functions are defined with the function keyword.
+
+Function Declarations
+
+function functionName(parameters) {
+  // code to be executed
+}
+
+Built function in javascript
+alert();
+confirm();
+parseint();
+parseFloat();
+Eval();
+Isnan();
+prompt();
+
+Mouse Event in JavaScript
+Introduction to JavaScript mouse events
+Mouse events fire when you use the mouse to interact with the elements on the page. DOM Level 3 events define nine mouse events.
+
+mousedown, mouseup, and click
+
+#When you click an element, there are no less than three mouse events fire in the following sequence:
+
+1. The mousedown fires when you depress the mouse button on the element.
+2. The mouseup fires when you release the mouse button on the element.
+3. The click fires when one mousedown and one mouseup detected on the element
+
+#If you depress the mouse button on an element and move your mouse off the element, and then release the mouse button. The only mousedown event fires on the element.
+
+ 1. mousedown
+ 2. mouseup
+ 3. click
+ 4. mousedown
+ 5. mouseup
+ 6. click
+ 7. dblclick
+ 8. mouseover :-The mouseover fires when the mouse cursor is outside of      the             element and then move to inside the boundaries of the element.
+
+ 9. mouseout :- The mouseout fires when the mouse cursor is over an element and then moves another element.
+
+ 10. mousemove:- 
+
+                     Method of Dates in JavaScript
+1. getDate()	Get the day as a number (1-31)   
+2. getDay()	Get the weekday as a number (0-6)                 
+3. getMonth()	Get the month as a number (0-11)
+4. getFullYear()	Get the year as a four digit number (yyyy)
+5. getHours()	Get the hour (0-23)
+6. getMinutes()	Get the minute (0-59)
+7. getSeconds()	Get the second (0-59)
+8. getMilliseconds()	Get the millisecond (0-999)
+9. getTime()	Get the time (milliseconds since January 1, 1970)
+10. Date.now()	Get the time. ECMAScript 5.
+

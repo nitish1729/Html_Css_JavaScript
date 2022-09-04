@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="array">
+        <h1>JavaScript Array</h1>
+        <h3>JavaScript array is an object that represents a collection of similar type of elements.</h3>
+        <ul>There are 3 ways to construct array in JavaScript</ul>
+        <li>By array literal</li>
+        <h2>1) JavaScript array literal</h2>
+        <p>The syntax of creating array using array literal is given below:</p>
+        <p class="literral"><u>var arrayname=[value1,value2.....valueN];  </u></p>
+        <h2>2) JavaScript Array directly (new keyword)</h2><br>
+        <h2>3) JavaScript array constructor (new keyword)</h2>
+    </div>
+    <div id="ArrayFunction">
+        <h2>Array methods</h2>
+        <ol>
+            <li>Add/remove items</li>
+            <li>push(...items)  adds items to the end,</li>
+            <li>pop()  extracts an item from the end,</li>
+            <li>shift()  extracts an item from the beginning,</li>
+            <li>unshift(...items)  adds items to the beginning.</li>
+            <li>splice(pos, deleteCount, ...items)  at index pos deletes deleteCount elements and inserts items.</li>
+            <li>slice(start, end)  creates a new array, copies elements from index start till end (not inclusive) into it.</li>
+            <li>concat(...items)  returns a new array: copies all members of the current one and adds items to it. If any of items is an array, then its elements are taken</li>
+            <h3>To search among elements:</h3>
+            <li>indexOf/lastIndexOf(item, pos)  look for item starting from position pos, return the index or -1 if not found.</li>
+            <li>includes(value)  returns true if the array has value, otherwise false.</li>
+            <li>find/filter(func)  filter elements through the function, return first/all values that make it return true.</li>
+            <li>findIndex is like find, but returns the index instead of a value.</li>
+            <li>forEach(func)  calls func for every element, does not return anything.</li>
+            <li>map(func)  creates a new array from results of calling func for every element.</li>
+            <li>sort(func) sorts the array in-place, then returns it.</li>
+            <li>forEach(func)  calls func for every element, does not return anything.</li>
+            <li>reverse()  reverses the array in-place, then returns it.</li>
+            <li>split/join  convert a string to array and back.</li>
+            <li>Array.isArray(value) checks value for being an array, if so returns true, otherwise false.</li>
+            <li>Please note that methods sort, reverse and splice modify the array itself.</li>
+        
+    </div>
+    <script>
+        var cars = new Array(5);
+        cars[0]="Mercedes benz s class";
+        cars[1] = "BMW";
+        cars[2] = "Tata Safari";
+        cars[3] = "Mahindra 700";
+        cars[4] = "Maserati Quattroporte";
+        document.writeln(cars+"<br>");
+        var emp = ["Nitish","Mehta","Vidhayak","Lohit"];
+        for(var i =0; i<=emp.length;i++)
+        {
+            document.writeln(emp[i]+"<br>");
+        }
+        var emp=new Array("Jai","Vijay","Smith");  
+        for (i=0;i<emp.length;i++){  
+        document.write(emp[i] + "<br>");  
+}  
+//Initilizing array with user input
+var films = new Array(5);
+for(var i = 0; i<films.length;i++)
+{
+    films[i] = prompt("Enter the films names " + i);
+}
+for(var j =0; j < films.length;j++)
+{
+document.write(films[j] + "<br>");
+}
+document.write(".......................... ");
+
+function emp(id,name,salary){  
+this.id=id;  
+this.name=name;  
+this.salary=salary;  
+}  
+
+e=new emp(103,"Vimal Jaiswal",30000);  
+  
+document.write(e.id+" "+e.name+" "+e.salary);  
+emp();
+    </script>
+</body>
+</html>
